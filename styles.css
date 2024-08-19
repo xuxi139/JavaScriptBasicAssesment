@@ -1,0 +1,83 @@
+/* Basic reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  background-image: url(bg.jpg);
+}
+
+.navbar {
+  background-color: #ae522a;
+  color: rgb(255, 214, 160);
+  padding: 1rem;
+  text-align: center;
+}
+
+.hero {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.task {
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px #ae522a;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+input[type="number"],
+input[type="text"],
+select {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(50% - 1rem);
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: rgb(255, 214, 160);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+p {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ae522a;
+  color: rgb(255, 214, 160);
+  margin-top: 2rem;
+}
+
+@media (max-width: 778px) {
+  padding: 1rem;
+}

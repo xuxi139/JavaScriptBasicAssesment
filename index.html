@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript-1</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar"><h1>JavaScript Basics Assessment</h1></nav>
+
+    <main class="hero">
+      <div class="task">
+        <h2>Simple Calculator</h2>
+        <input type="number" id="num1" placeholder="Enter first number" />
+        <select id="operator">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <input type="number" id="num2" placeholder="Enter second number" />
+        <button onclick="calculate()">Calculate</button>
+        <p id="result"></p>
+      </div>
+
+      <div class="task">
+        <h2>Array Operations</h2>
+        <input
+          type="text"
+          id="arrayInput"
+          placeholder="Enter numbers separated by commas"
+        />
+        <button onclick="calculateSum()">Calculate Sum</button>
+        <p id="sumResult"></p>
+      </div>
+
+      <div class="task">
+        <h2>Person Object</h2>
+        <p id="fullName"></p>
+        <p id="age"></p>
+        <br />
+        <button onclick="incrementAge()">Increment Age</button>
+      </div>
+    </main>
+    <footer>Copyrights &copy; 2024 Kamya</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
